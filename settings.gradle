@@ -1,0 +1,3 @@
+rootProject.name='DebugRely'
+include ':app'
+include ':debug-lib'

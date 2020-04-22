@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raven.debug_lib" >
+
+    <application>
+        <provider
+            android:name=".PgyContentProvider"
+            android:authorities="${applicationId}.pgy.installer"
+            android:exported="false" />
+    </application>
+</manifest>
